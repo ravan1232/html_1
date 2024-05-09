@@ -1,0 +1,96 @@
+body{
+    background-color: whitesmoke;
+}
+form {
+    margin: auto;
+    width: min(600px, 80%);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: url('https://th.bing.com/th/id/OIP.SsVkfFpYfo2UMJ7_RwY6nAHaJQ?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    font-size: 32px; /* Adjust font size as needed */
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:white;
+}
+div{
+    display: flex;
+    background-color: aliceblue;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select,
+#dob {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.checkboxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 20px;
+    
+}
+
+.checkboxes label {
+    margin-right: 20px;
+}
+legend
+{
+    text-align: center;
+}
+
+button {
+    display: block;
+    background-color: navy;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+.buttons button:hover {
+    background-color: #6e4225;
+}

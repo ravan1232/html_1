@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Registration Form</title>
+       <link rel = "stylesheet" href = "style1.css">
+</head>
+<body>
+	<h1> Dr.APJ Abdul Kalam School of Engineering </h1>
+    <form>
+        <fieldset>
+                <legend>Student's Registration Form </legend>
+        <label>First Name:</label>
+        <input type="text" required>
+	<br>
+
+        <label>Last Name:</label>
+        <input type="text" required>
+	<br>
+
+        <label>Email:</label>
+        <input type="email" required>
+	<br>
+
+        <label>Password:</label>
+        <input type="password" required>
+	<br>
+
+        <label>Re-type Password:</label>
+        <input type="password" required><br>
+
+        <label>Contact:</label>
+        <input type="text" maxlength="10" required>
+	<br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" >
+        <label for="male">Male</label>
+        <input type="radio" name="gender" >
+        <label for="female">Female</label>
+        <input type="radio" name="gender">
+        <label>Other</label><br>
+
+        <label>Date of Birth:</label>
+        <input type="date">
+	<br>
+
+        <label for="country">Country:</label>
+        <select>
+            <option value="CET">CET</option>
+            <option value="COMEDK">COMEDK</option>
+            <option value="Management">Management</option>
+            <!-- Add more options as needed -->
+        </select>
+	<br>
+
+        <label>Enquiry:</label>
+        <textarea rows="10" cols="50"></textarea>
+        <br>
+
+        <div>
+        <input type="checkbox">
+       <label>You can Call/Email Me</label> 
+        </div>
+	<br>
+
+        <button type="submit">Submit</button>
+</fieldset>
+    </form>
+</body>
+</html>

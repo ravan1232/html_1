@@ -1,0 +1,11 @@
+ table 
+ {
+    border:0.2em solid blue;
+    border-collapse: collapse;
+}
+.odd{
+    background-color:rgb(250, 1, 43);
+}
+.even{
+    background-color: blueviolet;
+}
